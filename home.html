@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Skensa</title>
+
+</head>
+
+<body>
+
+    <!-- -------- Navbar -------- -->
+    <nav>
+        <img src="Images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <li class="dropdown-nav" onclick="toggleDropdown()">
+                    <a href="#">Konsentrasi Keahlian
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="#">Desain Pemodelan dan Informasi Bangunan</a></li>
+                        <li><a href="#">Bisnis Konstruksi dan Properti</a></li>
+                        <li><a href="#">Teknik Audio Video</a></li>
+                        <li><a href="#">Teknik Instalasi Tenaga Listrik</a></li>
+                        <li><a href="#">Multimedia</a></li>
+                        <li><a href="#">Desain Komunikasi Visual</a></li>
+                        <li><a href="#">Perfilman</a></li>
+                        <li><a href="rpl.html">Rekayasa Perangkat Lunak</a></li>
+                        <li><a href="#">Teknik Komputer dan Jaringan</a></li>
+                        <li><a href="#">Teknik Kendaraan Ringan Otomotif</a></li>
+                        <li><a href="#">Teknik Bisnis Sepeda Motor</a></li>
+                        <li><a href="#">Teknik Pendingin dan Tata Udara</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <div class="btn-login">
+                    <li><a class="login-btn" href="#">Login</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- -------- Home -------- -->
+
+    <section id="home">
+        <h2>SELAMAT DATANG DI WEBSITE SMKN 1 DENPASAR</h2>
+        <p>Terwujudnya sekolah sebagai pusat pendidikan dan pelatihan kejuruan dengan layanan pendidikan
+            berbasis keunggulan lokal yang menghasilkan sumber daya manusia yang berstandar internasional,
+            berwawasan budaya dan berakkhlak mulia.</p>
+        <div class="btn">
+            <a class="sky-blue" href="#">Pelajari Lebih Lanjut</a>
+            <a class="white" href="#">Konsentrasi Keahlian</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- --------- Berita -------- -->
+        <section id="berita">
+            <div class="berita">
+                <span class="line"></span>
+                <p>Berita Terbaru</p>
+                <span class="line"></span>
+            </div>
+            <div class="cards-container container flex" id="cardscontainer">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita.jpg" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Sidak Rambut</h3>
+                        <h6 class="news-source" id="news-course">Admin - 02 April 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Para guru - guru Smk Negeri 1 Padangsambian melakukan sidak masal
+                            disaat pelaksaanaan P5 berlangsung.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita2.png" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">JOB FAIR TERBUKA UNTUK UMUM!</h3>
+                        <h6 class="news-source" id="news-course">Admin - 13 September 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Siapkan CV-mu!!! Job Fair SMKN 1 Denpasar Tahun 2024 akan
+                            dilaksanakan 18-19 September 2024. Jangan sampai...</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita3.jpg" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Pemenang Juara Kerupuk HUT RI</h3>
+                        <h6 class="news-source" id="news-course">Admin - 15 Agustus 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Murid yang bernama Bintang ini berhasil memenangkan lomba
+                            kerupuk pada HUT RI ke 79...</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita4.jpg" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Kyzen vs Zowwe</h3>
+                        <h6 class="news-source" id="news-course">Admin - 69 Juli 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Para murid - murid menyaksikan pertandingan Kyzen
+                            melawan Zowwe di ring skensa...</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita5.png" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Kegiatan HUT ke-62 SKENSA</h3>
+                        <h6 class="news-source" id="news-course">Admin - 17 September 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Serangkaian kegiatan memeriahkan HUT ke-62 SMKN 1
+                            Denpasar dibuka secara resmi oleh Kepala Sekolah, I Wayan...</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita6.png" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Pujawali Purnama Kapat, Piodal...</h3>
+                        <h6 class="news-source" id="news-course">Admin - 17 Oktober 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Diikuti oleh seluruh warga sekolah yang beragama Hindu,
+                            kegiatan Pujawali SMKN 1 Denpasar Tahun 2024 dilaksanakan di...</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="Images/Berita7.png" alt="" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">Job Fair dan Penandatanganan...</h3>
+                        <h6 class="news-source" id="news-course">Admin - 19 September 2024</h6>
+                        <p class="news-desc" id="news-desc">
+                            Dilaksanakan upacara pembukaan Job Fair. Turut hadir dalam
+                            kegiatan ini Kabid SMK Disdikpora Provinsi Bali, Kadisnak...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d348.6532811734307!2d115.2080223351754!3d-8.6380165259123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1731249844849!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+
+    <!-- Konsentrasi Keahlian -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
